@@ -10,6 +10,7 @@ import { ProjectsModule } from './projects/projects.module';
 import { CustomersModule } from './customers/customers.module';
 import { AppRoutingModule } from './app-routing.module';
 import { LoginComponent, UiLoginModule } from '@angular-core/ui-login';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent],
@@ -21,7 +22,8 @@ import { LoginComponent, UiLoginModule } from '@angular-core/ui-login';
     ProjectsModule,
     CustomersModule,
     UiLoginModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
