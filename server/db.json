@@ -124,6 +124,13 @@
       "targetDate": null,
       "completionDate": null,
       "customerId": "7"
+    },
+    {
+      "id": "EIH7mGQ",
+      "title": "Test Project Edit",
+      "details": "Test Project",
+      "percentComplete": 69,
+      "approved": true
     }
   ]
 }
